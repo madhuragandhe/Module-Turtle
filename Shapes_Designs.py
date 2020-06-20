@@ -123,7 +123,7 @@ turtle.done()
 '''
 
 # face
-
+'''
 george.penup()
 george.goto(-200,200)
 george.pendown()
@@ -153,7 +153,7 @@ george.pendown()
 george.right(135)
 george.forward(350)
 turtle.done()
-
+'''
 #circle through straight lines
 '''
 from math import sin,cos,pi
@@ -212,36 +212,40 @@ george.hideturtle()
 turtle.done()
 '''
 
-#just fun things
-# screen.title("CRISS CROSS AND HOTSPOT!")
-# amy=turtle.Turtle()
-# amy.shape("turtle")
-# colors = ["green", "cyan","navy", "purple", "red", "yellow", "orange"]
-# george.width(2)
-# george.penup()
-# george.goto(-200,30)
-# george.pendown()
-# for k in range(160):
-#     color = colors[k % 7]
-#     george.pencolor(color)
-#     george.forward(k)
-#     george.penup()
-#     george.forward(10)
-#     george.right(60)
-#     george.pendown()
-# george.hideturtle()
-# amy.width(2)
-# amy.penup()
-# amy.goto(200,30)
-# amy.pendown()
-# for k in range(160):
-#     color = colors[k % 7]
-#     amy.pencolor(color)
-#     amy.forward(k)
-#     amy.penup()
-#     amy.forward(10)
-#     amy.right(60)
-#     amy.pendown()
-#
+#Just Fun things
+'''
+screen.title("CRISS CROSS AND HOTSPOT!")
+amy=turtle.Turtle()
+amy.shape("turtle")
+colors = ["green", "cyan","navy", "purple", "red", "yellow", "orange"]
+george.width(2)
+george.penup()
+george.goto(-200,30)
+george.pendown()
+
+for k in range(160):
+    color = colors[k % 7]
+    george.pencolor(color)
+    george.forward(k)
+    george.penup()
+    george.forward(10)
+    george.right(60)
+    george.pendown()
+
+george.hideturtle()
+amy.width(2)
+amy.penup()
+amy.goto(200,30)
+amy.pendown()
+
+for k in range(160):
+    color = colors[k % 7]
+    amy.pencolor(color)
+    amy.forward(k)
+    amy.penup()
+    amy.forward(10)
+    amy.right(60)
+    amy.pendown()
+'''
 # amy.hideturtle()
 # turtle.done()
